@@ -4,7 +4,7 @@ var io = require('socket.io')(http);
 
 
 app.get('/', function(req, res){
-    res.sendFile('/Users/daniel/WebstormProjects/socket-io/server/index.html');
+    res.sendFile('index.html', {root: './'});
 });
 
 io.on('connection', function(socket){
