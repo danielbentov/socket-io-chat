@@ -1,0 +1,21 @@
+{
+  "name": "Daniel-Ben-Tov",
+  "version": "0.0.1",
+  "description": "Bizzabo's tach talk socket io",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~4.10.2",
+    "moment": "^2.10.5",
+    "morgan": "^1.5.1",
+    "optimist": "~0.6.0",
+    "redis": "^0.12.1",
+    "request": "~2.23.0",
+    "requirejs": "~2.1.8",
+    "socket.io": "^1.3.6",
+    "socket.io-redis": "^0.1.4",
+    "underscore": "~1.5.2",
+    "winston": "~0.7.2"
+  },
+  "devDependencies": {},
+  "author": "Bizzabo"
+}
